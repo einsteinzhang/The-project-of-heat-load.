@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form{
+	border-image: url(:/wuding1/ditu.png);
+}</string>
+  </property>
+  <widget class="QPushButton" name="queding_cheng">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>120</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;楷体&quot;;
+background-color: rgb(19, 255, 248);</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="chengshi">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>451</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;楷体&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>北京</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>天津</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>石家庄</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>太原</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>呼和浩特</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>沈阳</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>长春</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>哈尔滨</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>上海</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>南京</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>杭州</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>合肥</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>福州</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>南昌</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>济南</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>郑州</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>武汉</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>长沙</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>广州</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>南宁</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>成都</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>贵阳</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>昆明</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>拉萨</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>西安</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>兰州</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>西宁</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>银川</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>乌鲁木齐</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>台北</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>大连</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>海口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>重庆</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../pic/wuding.qrc"/>
+ </resources>
+ <connections/>
+</ui>

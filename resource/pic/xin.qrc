@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="ll">
+    <file>dengguang.png</file>
+    <file>renshu.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>794</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form{
+	
+	border-image: url(:/rishe/rishe.png);
+}</string>
+  </property>
+  <widget class="QPushButton" name="chaung_gui">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>340</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color:white;
+font: 16pt &quot;楷体&quot;;
+border-radius:8px;
+background-color:rgb(33, 174, 250);
+spacing:20px;
+}
+QPushButton:hover{
+background-color:rgb(72,203,250);
+}
+QPushButton:pressed{
+background-color:rgb(85,85,255);
+}
+QPushButton:checked{
+background-color: rgb(11, 15, 255);
+}
+QPushButton:disabled{
+
+	background-color: rgb(165, 165, 165);
+	color: rgb(11, 11, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="wancheng">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>522</y>
+     <width>491</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color:white;
+font: 16pt &quot;楷体&quot;;
+border-radius:8px;
+background-color:rgb(33, 174, 250);
+spacing:20px;
+}
+QPushButton:hover{
+background-color:rgb(72,203,250);
+}
+QPushButton:pressed{
+background-color:rgb(85,85,255);
+}
+QPushButton:checked{
+background-color: rgb(11, 15, 255);
+}
+QPushButton:disabled{
+
+	background-color: rgb(165, 165, 165);
+	color: rgb(11, 11, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>完成</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>310</y>
+     <width>591</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;楷体&quot; Bold-75;
+color: rgb(255, 56, 7);</string>
+   </property>
+   <property name="title">
+    <string>窗有效面积系数值：</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>40</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>窗柜类型：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>40</y>
+      <width>351</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>/</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>单层钢窗</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>单层木窗</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>双层钢窗</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>双层木窗</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>230</y>
+     <width>471</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color:white;
+font: 16pt &quot;楷体&quot;;
+border-radius:8px;
+background-color:rgb(33, 174, 250);
+spacing:20px;
+}
+QPushButton:hover{
+background-color:rgb(72,203,250);
+}
+QPushButton:pressed{
+background-color:rgb(85,85,255);
+}
+QPushButton:checked{
+background-color: rgb(11, 15, 255);
+}
+QPushButton:disabled{
+
+	background-color: rgb(165, 165, 165);
+	color: rgb(11, 11, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>面积输入完毕</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chuang_bo">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>410</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color:white;
+font: 16pt &quot;楷体&quot;;
+border-radius:8px;
+background-color:rgb(33, 174, 250);
+spacing:20px;
+}
+QPushButton:hover{
+background-color:rgb(72,203,250);
+}
+QPushButton:pressed{
+background-color:rgb(85,85,255);
+}
+QPushButton:checked{
+background-color: rgb(11, 15, 255);
+}
+QPushButton:disabled{
+
+	background-color: rgb(165, 165, 165);
+	color: rgb(11, 11, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>40</y>
+     <width>271</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="spacing">
+     <number>20</number>
+    </property>
+    <item>
+     <widget class="QLineEdit" name="bei">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="xi">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="dong">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="nan">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="shuiping">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>40</y>
+     <width>251</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>20</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;楷体&quot;;
+color: rgb(215, 15, 255);</string>
+      </property>
+      <property name="text">
+       <string>窗朝向北面积(m^2)：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;楷体&quot;;
+color: rgb(215, 15, 255);</string>
+      </property>
+      <property name="text">
+       <string>窗朝向西面积(m^2)：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;楷体&quot;;
+color: rgb(215, 15, 255);</string>
+      </property>
+      <property name="text">
+       <string>窗朝向东面积(m^2)：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;楷体&quot;;
+color: rgb(215, 15, 255);</string>
+      </property>
+      <property name="text">
+       <string>窗朝向南面积(m^2)：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;楷体&quot;;
+color: rgb(215, 15, 255);</string>
+      </property>
+      <property name="text">
+       <string>水平(m^2)：</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>380</y>
+     <width>591</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;楷体&quot; Bold-75;
+color: rgb(255, 56, 7);</string>
+   </property>
+   <property name="title">
+    <string>窗玻璃的遮挡系数值：</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>玻璃类型：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>40</y>
+      <width>351</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>/</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>标准玻璃</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5mm厚普通玻璃</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6mm厚普通玻璃</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3mm厚吸热玻璃</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5mm厚吸热玻璃</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6mm厚吸热玻璃</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>双层3mm厚普通玻璃</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>双层5mm厚普通玻璃</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>双层6mm厚普通玻璃</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>450</y>
+     <width>591</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;楷体&quot; Bold-75;
+color: rgb(255, 56, 7);</string>
+   </property>
+   <property name="title">
+    <string>窗内遮阳设施的遮阳系数：</string>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>窗内遮阳类型：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>40</y>
+      <width>351</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>/</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>无遮阳设备</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>白布帘（浅色）</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>浅蓝色布帘（中间色）</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>深黄、紫红、深绿色布帘（深色）</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>活动百叶帘（中间色）</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="chuang_zhe">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>480</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color:white;
+font: 16pt &quot;楷体&quot;;
+border-radius:8px;
+background-color:rgb(33, 174, 250);
+spacing:20px;
+}
+QPushButton:hover{
+background-color:rgb(72,203,250);
+}
+QPushButton:pressed{
+background-color:rgb(85,85,255);
+}
+QPushButton:checked{
+background-color: rgb(11, 15, 255);
+}
+QPushButton:disabled{
+
+	background-color: rgb(165, 165, 165);
+	color: rgb(11, 11, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../pic/rishe.qrc"/>
+ </resources>
+ <connections/>
+</ui>

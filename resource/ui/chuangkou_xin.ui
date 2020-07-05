@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>614</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form{
+border-image: url(:/chuang/chuanghu.png);
+
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="queding_ck">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>180</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color:white;
+font: 16pt &quot;楷体&quot;;
+border-radius:8px;
+background-color:rgb(33, 174, 250);
+spacing:20px;
+}
+QPushButton:hover{
+background-color:rgb(72,203,250);
+}
+QPushButton:checked{
+background-color: rgb(11, 15, 255);
+}
+QPushButton:pressed{
+background-color:rgb(85,85,255);
+}
+QPushButton:disabled{
+
+	background-color: rgb(165, 165, 165);
+	color: rgb(11, 11, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>填写完毕</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>480</y>
+     <width>441</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;楷体&quot;;
+color: rgb(255, 44, 16);</string>
+      </property>
+      <property name="text">
+       <string>窗口面积（m^2）:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="chuangmian">
+      <property name="styleSheet">
+       <string notr="true">font: 18pt &quot;楷体&quot;;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="queding_ds">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>60</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color:white;
+font: 16pt &quot;楷体&quot;;
+border-radius:8px;
+background-color:rgb(33, 174, 250);
+spacing:20px;
+}
+QPushButton:hover{
+background-color:rgb(72,203,250);
+}
+QPushButton:pressed{
+background-color:rgb(85,85,255);
+}
+QPushButton:checked{
+background-color: rgb(11, 15, 255);
+}
+QPushButton:disabled{
+
+	background-color: rgb(165, 165, 165);
+	color: rgb(11, 11, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>填写完毕</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="queding_cn">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>400</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color:white;
+font: 16pt &quot;楷体&quot;;
+border-radius:8px;
+background-color:rgb(33, 174, 250);
+spacing:20px;
+}
+QPushButton:hover{
+background-color:rgb(72,203,250);
+}
+QPushButton:checked{
+background-color: rgb(11, 15, 255);
+}
+QPushButton:pressed{
+background-color:rgb(85,85,255);
+}
+QPushButton:disabled{
+
+	background-color: rgb(165, 165, 165);
+	color: rgb(11, 11, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>填写完毕</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>491</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <property name="spacing">
+     <number>60</number>
+    </property>
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;楷体&quot;;
+color: rgb(255, 44, 16);</string>
+      </property>
+      <property name="text">
+       <string>窗框类型：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="chuangk_com">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;楷体&quot;;</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>无</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>全部金属</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>木窗框（80%玻璃）</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>木窗框（60%玻璃）</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>金属窗框（80%玻璃）</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>30</y>
+     <width>491</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>60</number>
+    </property>
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;楷体&quot;;
+color: rgb(255, 44, 16);</string>
+      </property>
+      <property name="text">
+       <string>单/双玻璃窗：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="dsbl_com">
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;楷体&quot;;</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>无</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>单层窗玻璃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>双层窗玻璃</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="queding_cw">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>290</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color:white;
+font: 16pt &quot;楷体&quot;;
+border-radius:8px;
+background-color:rgb(33, 174, 250);
+spacing:20px;
+}
+QPushButton:hover{
+background-color:rgb(72,203,250);
+}
+QPushButton:checked{
+background-color: rgb(11, 15, 255);
+}
+QPushButton:pressed{
+background-color:rgb(85,85,255);
+}
+QPushButton:disabled{
+
+	background-color: rgb(165, 165, 165);
+	color: rgb(11, 11, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>填写完毕</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="queding_chuangk">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>510</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+color:white;
+font: 16pt &quot;楷体&quot;;
+border-radius:8px;
+background-color:rgb(33, 174, 250);
+spacing:20px;
+}
+QPushButton:hover{
+background-color:rgb(72,203,250);
+}
+QPushButton:pressed{
+background-color:rgb(85,85,255);
+}
+QPushButton:disabled{
+
+	background-color: rgb(165, 165, 165);
+	color: rgb(11, 11, 11);
+}</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="chuangn">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>410</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;楷体&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>无</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5.8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6.4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7.0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>7.6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8.2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>8.7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9.4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9.9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10.5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>11.1</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>410</y>
+     <width>384</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>300</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;楷体&quot;;
+color: rgb(255, 44, 16);</string>
+   </property>
+   <property name="text">
+    <string>窗内表面换热系数，W/（m^2*℃）：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>271</y>
+     <width>400</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>400</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;楷体&quot;;
+color: rgb(255, 44, 16);</string>
+   </property>
+   <property name="text">
+    <string>窗外表面换热系数，W/（m^2*℃）：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="chuangw">
+   <property name="geometry">
+    <rect>
+     <x>452</x>
+     <y>300</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;楷体&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>无</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>11.6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>12.8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>14.0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>15.1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16.3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>17.5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>18.6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>19.8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>20.9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>22.1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>23.3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>24.4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25.6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>26.7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>27.9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>29.1</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../pic/chuanghu.qrc"/>
+ </resources>
+ <connections/>
+</ui>

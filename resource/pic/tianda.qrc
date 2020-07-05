@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="tianjin">
+    <file>tianda.png</file>
+  </qresource>
+</RCC>

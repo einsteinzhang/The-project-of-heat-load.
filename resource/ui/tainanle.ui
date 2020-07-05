@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>180</y>
+      <width>681</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(217, 23, 255);
+font: 8pt &quot;楷体&quot;;</string>
+    </property>
+    <property name="title">
+     <string>墙体结构</string>
+    </property>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>641</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>保温墙体(一)，保温材料：加气混凝土</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(一)，保温材料：水泥膨胀珍珠岩</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(一)，保温材料：沥青膨胀珍珠岩</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(二)，保温材料：沥青矿渣棉毡</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(二)，保温材料：塑料袋装膨胀蛭石</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(二)，保温材料：塑料袋装膨胀珍珠岩粉</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(二)，保温材料：沥青玻璃棉毡</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(二)，保温材料：塑料袋装脲醛泡沫塑料</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(三)，保温材料：沥青矿渣棉毡</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(三)，保温材料：塑料袋装膨胀蛭石</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(三)，保温材料：塑料袋装膨胀珍珠岩粉</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(三)，保温材料：沥青玻璃棉毡</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温墙体(三)，保温材料：塑料袋装脲醛泡沫塑料</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>砖墙</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>陶粒页岩混凝土大板280</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>混凝土、加气混凝土复合板240</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>填泡沫混凝土的钢筋混凝土墙板180</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>填泡沫混凝土的钢筋混凝土墙板220</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>膨珠混凝土大版280</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>混凝土、加气混凝土复合板280（一）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>混凝土、加气混凝土复合板280（二）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>纯加气混凝土大板</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>矿棉轻质复合板182</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>矿棉轻质复合板98</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>钢筋混凝土剪力墙</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>110</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>681</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(217, 23, 255);
+font: 8pt &quot;楷体&quot;;</string>
+    </property>
+    <property name="title">
+     <string>屋顶结构</string>
+    </property>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>641</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>保温屋盖，保温材料：加气混凝土</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温屋盖，保温材料：水泥膨胀珍珠岩</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>保温屋盖，保温材料：沥青膨胀珍珠岩</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>通风屋盖，保温材料：加气混凝土</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>通风屋盖，保温材料：水泥膨胀珍珠岩</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>通风屋盖，保温材料：沥青膨胀珍珠岩</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(一)，保温材料：脲醛泡沫塑料</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(一)，保温材料：膨胀珍珠岩粉</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(一)，保温材料：沥青玻璃棉毡</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(一)，保温材料：膨胀蛭石</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(一)，保温材料：沥青矿渣棉毡</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(二)，保温材料：脲醛泡沫塑料</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(二)，保温材料：膨胀珍珠岩粉</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(二)，保温材料：沥青玻璃棉毡</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(二)，保温材料：膨胀蛭石</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(二)，保温材料：沥青矿渣棉毡</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(三)，保温材料：脲醛泡沫塑料</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(三)，保温材料：膨胀珍珠岩粉</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(三)，保温材料：沥青玻璃棉毡</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(三)，保温材料：膨胀蛭石</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吊顶屋盖(三)，保温材料：沥青矿渣棉毡</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>100</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>430</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(205, 24, 255);
+font: 8pt &quot;楷体&quot;;</string>
+    </property>
+    <property name="text">
+     <string>完成</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../pic/wuding.qrc"/>
+ </resources>
+ <connections/>
+</ui>
